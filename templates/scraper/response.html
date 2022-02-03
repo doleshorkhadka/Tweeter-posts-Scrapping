@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<center>
+   <h1> Results: </h1> 
+   <ul id="container" >
+       <div id="tweets">
+       {% for x in tweets %}
+       <li > {{ x }}  </li>
+       {% endfor %}
+   </div>
+   <div id="likes" >
+       {% for like in likes %}
+       <li> {{ like }}  </li>
+       {% endfor %}
+   </div>
+   <div id="retweet">
+      {% for count in retweets_count %}
+      <li> {{ count }}  </li>
+      {% endfor %}
+  </div>
+   </ul>
+   </center>
+
+{% endblock content %}

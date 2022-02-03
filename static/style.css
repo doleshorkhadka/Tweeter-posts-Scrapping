@@ -1,0 +1,31 @@
+body{
+    background-color: greenyellow;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    background-color: cadetblue;
+}
+
+#container{
+    background-color:blanchedalmond;
+}
+
+#tweets{
+    background-color: cadetblue;
+    display: inline-block;
+    width:70%;
+}
+
+#likes{
+    background-color: darkolivegreen;
+    display: inline-block;
+}
+
+#retweet{
+    background-color: indigo;
+    display: inline-block;
+}

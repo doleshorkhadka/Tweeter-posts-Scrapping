@@ -1,0 +1,6 @@
+{% extend 'base.html' %}
+{% block content %}
+<button><a href="{% url 'scraper:requests' %}">Scrape new Data</a> </button>
+<button><a href="{% url 'scraper:response' %}">Show scraped Data</a> </button>
+    
+{% endblock content %}
