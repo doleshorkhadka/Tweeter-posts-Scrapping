@@ -3,7 +3,7 @@ import pandas as pd
 
 def RONBsearch():
     search_str = "RONBupdates"
-    bearer_token = "AAAAAAAAAAAAAAAAAAAAAEkCYwEAAAAAFnxYsFf0039kr22Q0FrbWnKJbvQ%3Da1WpeWeoIqnIpHS4bilKXq4NXq1CMyhHlRN9kZKwD2y9ql3iKX"
+    bearer_token = ""
     auth = tweepy.OAuth2BearerHandler(bearer_token)
     api = tweepy.API(auth)
     no_of_tweets = 50
